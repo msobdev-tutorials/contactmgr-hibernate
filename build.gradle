@@ -1,0 +1,16 @@
+group 'com.msobdev'
+version '0.0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.hibernate:hibernate-core:5.2.10.Final'
+    compile 'com.h2database:h2:1.4.196'
+}
